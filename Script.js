@@ -27,3 +27,10 @@ function alignJustify() {
 function alignCenter() {
     document.execCommand('justifyCenter', false, null);
 }
+function undo() {
+    document.execCommand('undo', false, null);
+}
+
+function redo() {
+    document.execCommand('redo', false, null);
+}
